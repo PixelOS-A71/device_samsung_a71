@@ -17,6 +17,10 @@ PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-A715
 PRODUCT_MANUFACTURER := samsung
 
+# FeatherROM flags
+TARGET_FACE_UNLOCK_SUPPORTED := false
+TARGET_BOOT_ANIMATION_RES := 1080
+
 # Use the latest approved GMS identifiers
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
