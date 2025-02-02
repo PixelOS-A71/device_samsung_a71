@@ -41,6 +41,10 @@ PRODUCT_PACKAGE_OVERLAYS += \
 PRODUCT_PACKAGES += \
     init.a71.rc \
 
+# Remove Packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # Soong Namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(DEVICE_PATH) \
