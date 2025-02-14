@@ -7,11 +7,12 @@
 # Inherit from a71 device
 $(call inherit-product, device/samsung/a71/device.mk)
 
-# Inherit some common derp stuff.
-$(call inherit-product, vendor/derp/config/common_full_phone.mk)
+# Inherit some common PixelOS stuff.
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+TARGET_BOOT_ANIMATION_RES := 1080
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := derp_a71
+PRODUCT_NAME := aosp_a71
 PRODUCT_DEVICE := a71
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-A715
